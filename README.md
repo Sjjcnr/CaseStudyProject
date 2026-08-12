@@ -7,9 +7,9 @@ Production-quality 48-hour-scope **Mini ERP + CRM Operations Portal** with role-
 ## Submission Summary & Quick Links
 
 - **GitHub Repository**: [https://github.com/Sjjcnr/CaseStudyProject](https://github.com/Sjjcnr/CaseStudyProject)
-- **Deployed Frontend (Vercel)**: `https://mini-erp-crm.vercel.app` *(Update with real URL after Vercel deployment)*
-- **Deployed Backend API (Render)**: `https://mini-erp-crm-api.onrender.com/api/v1` *(Update with real URL after Render deployment)*
-- **API Health Check**: `https://mini-erp-crm-api.onrender.com/health`
+- **Deployed Frontend (Vercel)**: [https://frontend-six-psi-93.vercel.app](https://frontend-six-psi-93.vercel.app)
+- **Deployed Backend API (Render)**: [https://mini-erp-backend-0s28.onrender.com](https://mini-erp-backend-0s28.onrender.com)
+- **API Health Check**: [https://mini-erp-backend-0s28.onrender.com/health](https://mini-erp-backend-0s28.onrender.com/health)
 - **Postman Collection**: Located in [`postman/mini-erp-crm.postman_collection.json`](file:///c:/Users/91638/OneDrive/Desktop/Antigravity/Case%20study%20Project/postman/mini-erp-crm.postman_collection.json)
 
 ---
@@ -120,7 +120,7 @@ CaseStudyProject/
 
 ### Prerequisites
 - Node.js v18+ and npm installed.
-- Root `.env` containing Supabase credentials.
+- Supabase database connection string (`DATABASE_URL`).
 
 ### 1. Backend Setup & Database Migration
 ```bash
