@@ -29,6 +29,19 @@ app.use(
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+// GET / - Root welcome endpoint
+app.get('/', (req: Request, res: Response) => {
+  return sendSuccess(res, {
+    service: 'Mini ERP + CRM Backend API',
+    status: 'online',
+    version: '1.0.0',
+    endpoints: {
+      health: '/health',
+      api: '/api/v1',
+    },
+  });
+});
+
 // GET /health - Unauthenticated health check endpoint
 app.get('/health', (req: Request, res: Response) => {
   return sendSuccess(res, {
